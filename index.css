@@ -1,0 +1,313 @@
+/* 
+*{
+    outline:2px solid red;
+} */
+
+body{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin:0px;
+    align-items:space-between;
+    font-family:'Ubuntu';
+}
+a{
+    text-decoration:none;
+}
+
+
+/* --------------------------------------------------------------- */
+
+/* header */
+
+
+.header{
+    min-height:100px;
+    min-width:50vh;
+    background-color:#ffc90e;
+    /* flexbox */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+
+}
+
+.logo{
+    font-size:48px;
+    color:#003057;
+}
+
+/* -------------------------------------------------------- */
+
+/* Info */
+
+.info{
+    margin-top:10px;
+    min-height:150px;
+    min-width:50vh;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    font-family:'arial';
+    font-weight:bold;
+    position:static;
+    /* flexbox */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+
+.info_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+    
+}
+
+.info_container_left{
+    display:flex;
+    gap:30px;
+    margin:auto;
+}
+
+.info_container .info_container_left a {
+    color:black;
+    font-size:20px;
+
+}
+
+
+.Sign_up_btn{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    width:200px;
+    border:2px solid #ff4419;
+    border-radius:9px;
+    background-color:#ff4419;
+    color:#ff4419;
+    font-family:"Roboto";
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+
+}
+
+.Sign_up_btn:hover{
+    transform:translateY(-10px);
+    box-shadow: 0px 15px 10px 0px rgba(255, 68, 25, 0.5);
+    background-color:white;
+    color:#ff4419;
+    border:2px solid #ff4419;
+    border-radius:9px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* ABOUT */
+
+.about{
+    min-width:50vh;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px 50px 0px 50px ;
+
+    /* flex box */
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+
+
+}
+
+.about_one{
+    display:flex;
+    flex-direction:row;
+    align-self:flex-start;
+    gap:50px;
+    /* flex-wrap:wrap; */
+    width:150vh;
+    margin-left:20px;
+    margin-top:30px
+     
+    
+}
+
+/* hindi anime world picture */
+.about_image_one{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.about_one .about_image_one img{
+    height:300px;
+    width:500px;
+    border-radius:10px;
+    box-shadow:5px 5px 10px 0px rgba(63, 63, 63,1)
+}
+/* ------------------------------ */
+
+.about_one_para{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.about_one_para p{
+    margin:0;
+    font-family:'Roboto';
+    font-size:30px;
+    font-weight:350;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.about_one_btncontainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+
+}
+.about_one_button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    width:200px;
+    border:2px solid #ce3fa4;
+    border-radius:9px;
+    background-color:#ce3fa4;
+    color:#0078d7;
+    font-family:"Roboto";
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+}
+
+
+
+.about_one_button:hover{
+    transform:translateY(-10px);
+    box-shadow: 0px 15px 10px 0px rgba(189, 84, 500, 0.5);
+    background-color:white;
+    color:#ce3fa4;
+    border:2px solid #ce3fa4;
+    border-radius:9px;
+}
+/* --------------------------------------------------------------------------- */
+
+.about_two{
+    display:flex;
+    flex-direction:row;
+    align-self:flex-end;
+    gap:50px;
+    /* flex-wrap:wrap; */
+    width:150vh;
+    margin-top:30px;
+    margin-right:20px; 
+    margin-bottom:20px; 
+}
+
+.about_two_para{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.about_two_para p{
+    margin:0;
+    font-family:'Roboto';
+    font-size:30px;
+    font-weight:350;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.about_two_button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    width:200px;
+    border:2px solid #5e9988;
+    border-radius:9px;
+    background-color:#5e9988;
+    color:#5e9988;
+    font-family:"Roboto";
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function:ease;
+    transition-delay:0s;
+}
+
+
+
+.about_two_button:hover{
+    transform:translateY(-10px);
+    box-shadow: 0px 15px 10px 0px rgba(94, 153, 136, 0.4);
+    background-color:white;
+    color:#5e9988;
+    border:2px solid rgb(94, 153, 136);
+    border-radius:9px;
+}
+
+/* Medical image  */
+.about_image_two{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.about_two .about_image_two img{
+    height:300px;
+    width:500px;
+    border-radius:10px;
+    box-shadow:-5px 10px 10px 5px rgb(93, 92, 92)
+}
+/* ------------------------------ */
+
+
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:25px;
+    background-color:#eeeded;
+    min-height:10vh;
+    font-size:25px;
+    font-weight:500px;
+}
+
+
+
+
+
