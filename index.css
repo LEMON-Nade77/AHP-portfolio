@@ -1,5 +1,5 @@
-/* 
-*{
+
+/* *{
     outline:2px solid red;
 } */
 
@@ -8,8 +8,10 @@ body{
     flex-direction:column;
     flex-wrap:wrap;
     margin:0px;
-    align-items:space-between;
+   
     font-family:'Ubuntu';
+    justify-content:space-evenly;
+    
 }
 a{
     text-decoration:none;
